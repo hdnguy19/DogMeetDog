@@ -1,0 +1,54 @@
+h3 {
+    font-size: 30px;
+}
+
+.page {
+    background-color: #C3B1E1;
+}
+
+.card {
+    position: relative;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 18px 12px 0px rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+    color: #C3B1E1;
+}
+
+.card > h3 {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.dogCards_cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.swipe {
+    position: absolute;
+}
+
+.description {
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    position: absolute;
+
+    width: 100%;
+    align-items: center;
+    bottom: -17vh;
+    background-color:#C3B1E1 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

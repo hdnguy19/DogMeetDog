@@ -1,0 +1,26 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit_profile_text {
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.profile_info {
+  text-align: left;
+  flex-direction: column;
+}
+
+.change_profile_pic {
+  font-size: 30px;
+  color: blue;
+  text-decoration: none;
+}
+
+.picture {
+  border: solid 5px black;
+  height: 500px;
+}
